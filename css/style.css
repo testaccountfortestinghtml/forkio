@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #5b5b5b;
+}
+.lato{
+	font-family: 'Lato', sans-serif;
+}
+.logo{
+	color: #333333;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold; /* Надо пойти скачать Lato Bold */	
+	display: flex;
+	align-items: center;
+}
+.color1{
+	color: #8d81ac !important;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+img{
+	max-width: 100%;
+}
+.logo img{
+	margin-right: 15px;
+}
+.top-menu ul{
+	display: flex;
+	list-style-type: none;
+	align-items: center;
+}
+.top-menu a{
+	text-decoration: none;
+	color: #635c73;
+	font-weight: bold;
+	font-size: 16px;
+
+	display: inline-block;
+	margin-left: 30px;
+}
+.top-menu .btn, .btn{
+	background: #8d81ac;
+	color: #ffffff;
+	border-radius: 30px;
+	padding: 12px 28px;
+}
+header{
+	padding: 20px 0;
+	background: #fff;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	box-shadow: 0px -2px 8px #a4a4a4;
+	z-index: 1000;
+}
+.baner{
+	height: 88vh;
+	width: 100%;
+	background-image: url(../img/baner.png);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.baner-btn{
+	position: absolute;
+	bottom: -36px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+}
+.baner-text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.baner-text h1{
+	font-size: 82px;
+	color: #fff;
+	font-weight: bold;
+}
+.baner-text span{
+	font-size: 16px;
+	color: #848e97;
+	text-transform: uppercase;
+}
+.baner-text span.color1{
+	font-size: 22px;
+	color: #8d81ac;
+	text-transform: unset;
+
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.baner-text {
+	padding-top: 50px;
+}
+
+#editor{
+	padding-top: 125px;
+	padding-bottom: 65px;
+	background: white;
+}
+.flex-center{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#editor h2{
+	color: #635c73;
+	font-size: 54px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+#editor p{
+	font-size: 18px;
+	color: #635c73;
+	line-height: 18px;
+	margin-bottom: 25px;
+}
+.blocks{
+	display: flex;
+}
+.block{
+	display: flex;
+	align-items: center;
+	border: 1px solid #d5d5d5;
+	border-radius: 3px;
+	margin-left: 15px;
+	margin-right: 15px;
+	color: #333333;
+	font-weight: bold;
+}
+.left-block{
+	display: flex;
+	align-items: center;
+	background: #fafafa;
+	padding: 5px 10px;
+}
+.right-block{
+	border-left: 1px solid #d5d5d5;
+	padding: 5px 10px;
+}
+.left-block p{
+	margin: 0 !important;
+}
+.left-block i{
+	font-size: 16px;
+	margin-right: 5px;
+	display: inline-block;
+}
+.left-block p{
+	color: #333333 !important;
+	font-size: 14px !important;
+}
+
+#about{
+	padding: 90px 0;
+	background: #f4f4f4;
+}
+.left-side, .right-side{
+	width: 50%;
+}
+.item{
+	margin-bottom: 30px;
+	display: flex;
+}
+#about .flex{
+	align-items: flex-start;
+}
+.item-img{
+	width: 220px;
+	margin-right: 15px;
+}
+.item-text h3{
+	color: #323232;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+.item-text p{
+	font-size: 12px;
+	color: #848e97;
+	line-height: 1.4;
+}
+#about h2{
+	font-size: 48px;
+	color: #8d81ac;
+	margin-top: -10px;
+}
+#about{
+	position: relative;
+}
+.code-img{
+	position: absolute;
+	right: 0;
+	top: 150px;
+	width: 50%;
+}
+.left-side{
+	padding-right: 20px;
+}
+
+.partners{
+	background-image: url(../img/background-baner.png);
+	background-size: cover;
+	background-position: center;
+	padding: 90px 0 90px 0;
+}
+.prices{
+	background-image: url(../img/background-baner2.png);
+	background-size: cover;
+	background-position: center;
+	padding: 90px 0;
+}
+#prices{
+	padding-top: 90px;
+}
+#prices h2{
+	font-size: 48px;
+	color: #fff;
+	margin-bottom: 90px;
+	text-align: center;
+}
+.companies{
+	display: flex;
+	flex-wrap: wrap;
+}
+.companies .company{
+	width: 33.33%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	color: #fff;
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom: 60px;
+	font-size: 13px;
+	text-align: center;
+	line-height: 1.5;
+}
+.companies .company img{
+	margin-bottom: 20px;
+}
+.companies .company p{
+	max-width: 80%;
+}
+
+.pricing-blocks{
+	display: flex;
+}
+.card{
+	position: relative;
+	transform: scale(1.0);
+	transition: all .2s linear;
+	background-color: rgba(255,255,255,0.1);
+	width: 24%;
+}
+.card:hover{
+	transform: scale(1.2);
+}
+.card-top{
+	width: 100%;
+	height: 90px;
+	background-color: rgba(255,255,255,0.2);
+	font-size: 24px;
+	text-transform: uppercase;
+	line-height: 90px;
+	text-align: center;
+	color: #fff;
+}
+.card-body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.card h5{
+	color: #fff;
+	font-size: 60px;
+}
